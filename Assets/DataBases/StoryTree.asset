@@ -10,32 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3fc1e56f11d7a24f9aa059d599df6c9, type: 3}
-  m_Name: MysqlDungeon
+  m_Name: StoryTree
   m_EditorClassIdentifier: 
   databoxCloudService: {fileID: 0}
-  cloudVersion: 20230601062407
-  oldCloudVersion: 20230601062342
-  cloudId: 0
+  cloudVersion: 20230601062412
+  oldCloudVersion: 20230601061759
+  cloudId: 1
   cloudServer: localhost:8808
   cloudStatus: '- local version is equal to server
 
-    .....
+    .
 
     - upload successful
 
 '
-  cloudProgress: 1
-  fileName: MyData.json
+  cloudProgress: 0
+  fileName: StoryTree
   selectedApplicationPath: 1
   debugMode: 0
   showFieldTypes: 0
   showInitValues: 0
-  automaticSave: 1
+  automaticSave: 0
   automaticLoad: 1
   databoxScheme: {fileID: 0}
   encryption: 0
   encryptionKey: 123456
-  compressJson: 1
+  compressJson: 0
   dataFormat: 0
   collapsedView: 0
   showInspector: 1

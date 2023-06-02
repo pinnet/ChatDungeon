@@ -1,0 +1,61 @@
+[
+    {
+        "Key": "StoryTreeRoot",
+        "Value": {
+            "entries": [
+                {
+                    "Key": "Leves",
+                    "Value": {
+                        "selected": false,
+                        "data": {
+                            "Narrator": {
+                                "DictionaryStringType": {
+                                    "Value": {
+                                        "Initial": "initial Description",
+                                        "Room1": "Description",
+                                        "$id": "7"
+                                    },
+                                    "_dicstring": {
+                                        "$ref": "7"
+                                    },
+                                    "InitValue": {
+
+                                    },
+                                    "$type": "DictionaryStringType"
+                                }
+                            },
+                            "NPC1": {
+                                "DictionaryStringType": {
+                                    "Value": {
+                                        "Name": "Jonty Old Man",
+                                        "Stats": "Age : 90",
+                                        "$id": "11"
+                                    },
+                                    "_dicstring": {
+                                        "$ref": "11"
+                                    },
+                                    "InitValue": {
+
+                                    },
+                                    "$type": "DictionaryStringType"
+                                }
+                            },
+                            "NPC2": {
+                                "StringListWithIndexType": {
+                                    "_selectedIndex": 1,
+                                    "selectedIndexInit": 0,
+                                    "_lsstring": [
+                                        "This is some data",
+                                        "This is some more"
+                                    ],
+                                    "InitValue": [],
+                                    "$type": "StringListWithIndexType"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]
