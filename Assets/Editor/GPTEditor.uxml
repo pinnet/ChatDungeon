@@ -9,15 +9,16 @@
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="ChatBox" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column; flex-basis: auto; flex-shrink: initial; min-width: 100px; width: auto;">
-            <ui:VisualElement name="GPTAnswer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 66%; align-items: center; min-height: 150px;">
-                <ui:TextField picking-mode="Ignore" multiline="true" name="AnswerText" style="flex-direction: column; height: 100%;">
+            <ui:VisualElement name="GPTAnswer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 50%; align-items: center; min-height: 150px; flex-wrap: wrap;">
+                <ui:TextField picking-mode="Ignore" multiline="true" name="AnswerText" style="flex-direction: column; height: auto; flex-basis: 100%; width: 100%; flex-wrap: wrap; white-space: normal;">
                     <ui:VisualElement name="AnswerButtons" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; align-items: flex-end; justify-content: flex-start; align-self: flex-end; bottom: 0; min-height: 20px;">
                         <ui:Button text="Copy" display-tooltip-when-elided="true" name="CopyButton" style="align-items: stretch; height: 15px; min-height: 10px;" />
                     </ui:VisualElement>
                 </ui:TextField>
             </ui:VisualElement>
-            <ui:VisualElement name="Question" style="flex-grow: initial; background-color: rgba(0, 0, 0, 0); flex-basis: 10px; height: auto; min-height: 50px; min-width: auto;">
-                <ui:TextField picking-mode="Ignore" multiline="true" name="QuestionText" style="flex-direction: column; justify-content: flex-end; height: 100%;">
+            <ui:VisualElement name="Question" style="flex-grow: initial; background-color: rgba(0, 0, 0, 0); flex-basis: 25%; height: auto; min-height: 50px; min-width: auto; align-items: center;">
+                <ui:TextField picking-mode="Ignore" name="ContextText" multiline="true" style="width: 100%; flex-basis: 75%; align-items: flex-start; align-self: auto; height: auto; min-height: auto; flex-wrap: wrap; justify-content: center; white-space: normal;" />
+                <ui:TextField picking-mode="Ignore" multiline="true" name="QuestionText" style="flex-direction: column; justify-content: flex-end; height: auto; width: 100%; align-items: flex-start; min-height: 30px; white-space: normal;">
                     <ui:VisualElement name="QuestionButtons" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); min-width: auto; min-height: 10px; align-items: center; justify-content: flex-end; height: 30px; position: absolute; align-self: flex-end; flex-basis: 15px;">
                         <ui:Button text="Send" display-tooltip-when-elided="true" name="SendButton" style="height: 15px; min-height: 10px;" />
                     </ui:VisualElement>
