@@ -76,3 +76,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /.env
+/Assets/Spark/Demos/creds.json
+/Assets/Spark/Demos/creds.json.meta

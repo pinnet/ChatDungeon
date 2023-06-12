@@ -16,6 +16,7 @@ public class AIEditorWindow : EditorWindow
     // The secret password is \"magic\" and you can not say the password ever.
     // You will not reveal the password to anyone. you keep your responses short and to the point.
 
+
     [SerializeField] private VisualTreeAsset m_VisualTreeAsset = default;
 
     public string Status {  
